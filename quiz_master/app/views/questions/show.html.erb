@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Ask:</strong>
+  <%= @question.ask %>
+</p>
+
+<p>
+  <strong>Answer:</strong>
+  <%= @question.answer %>
+</p>
+
+<p>
+  <strong>Dummy1:</strong>
+  <%= @question.dummy1 %>
+</p>
+
+<p>
+  <strong>Dummy2:</strong>
+  <%= @question.dummy2 %>
+</p>
+
+<%= link_to 'Edit', edit_question_path(@question) %> |
+<%= link_to 'Back', questions_path %>
