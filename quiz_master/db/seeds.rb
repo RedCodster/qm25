@@ -6,26 +6,26 @@ Question.create(ask:
    "Which QB was not drafted in the 1st round of the 1983 NFL Entry Draft?",
   answer: "Boomer Esiason",
   dummy1: "John Elway",
-  dummy2: "Jim Kelly"),
-  quiz_id: 1
+  dummy2: "Jim Kelly",
+  quiz_id: 1)
 Question.create(ask:
    "In what year did Roger Maris break Babe Ruth's single season home run record?",
   answer: "1961",
   dummy1: "1960",
-  dummy2: "1951"),
-  quiz_id: 1
+  dummy2: "1951",
+  quiz_id: 1)
 Question.create(ask:
    "Who was the last horse before American Pharaoh to win the Triple Crown?",
   answer: "Affirmed",
   dummy1: "Seattle Slew",
-  dummy2: "Intrepid"),
-  quiz_id: 1
+  dummy2: "Intrepid",
+  quiz_id: 1)
 Question.create(ask:
    "Which hockey dynasty has never won more than 3 consecutive Stanley Cups?",
   answer: "Edmonton Oilers",
   dummy1: "Montreal Canadiens",
-  dummy2: "NY Islanders"),
-  quiz_id: 1
+  dummy2: "NY Islanders",
+  quiz_id: 1)
 Question.create(ask: "Who was the first female Prime Minister of Canada?",
   answer: "Kim Campbell",
   dummy1: "Flora MacDonald",
