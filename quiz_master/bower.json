@@ -1,7 +1,9 @@
 {
-  "name": "",
-  "version": "",
+  "name": "QM2",
+  "version": "0.99",
   "main": "",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "j-toker": "^0.0.9"
+  }
 }
