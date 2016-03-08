@@ -1,8 +1,9 @@
 Rails.application.routes.draw do
-  resources :questions, :quizzes
+  resources :questions, :quizzes, :static_pages
 
   get '/all' => redirect('/questions')
-  
+  root 'static_pages#index'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
