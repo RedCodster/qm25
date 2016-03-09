@@ -13,3 +13,5 @@
 /tmp
 
 bower_components
+
+.env
