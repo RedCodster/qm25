@@ -8,6 +8,8 @@ Rails.application.routes.draw do
   post '/image', to: 'welcome#image'
 
   get '/quiz_choose', to: 'quizzes#quiz_choose'
+  get '/signup', to: 'static_pages#signup'
+  get '/signin', to: 'static_pages#signin'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

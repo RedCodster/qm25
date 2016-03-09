@@ -11,9 +11,15 @@ class StaticPagesController < ApplicationController
     end
   end
 
+  def signup
+
+  end
+
+  def signin
+  end
+
 private
   def image_param
     params.require(:user).permit(:image)
   end
-
 end
