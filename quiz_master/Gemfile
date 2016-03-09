@@ -52,3 +52,5 @@ gem 'bootstrap-sass'
 gem 'devise_token_auth'
 gem 'omniauth'
 gem 'bower'
+
+gem 'paperclip'

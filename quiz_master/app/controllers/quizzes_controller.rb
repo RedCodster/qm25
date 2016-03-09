@@ -12,6 +12,9 @@ class QuizzesController < ApplicationController
   def show
   end
 
+  def quiz_choose
+
+  end
   # GET /quizzes/new
   def new
     @quiz = Quiz.new

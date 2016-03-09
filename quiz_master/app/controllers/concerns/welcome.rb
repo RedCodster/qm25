@@ -1,6 +1,4 @@
-class StaticPagesController < ApplicationController
-  def index
-  end
+
 
   def image
     current_user.assign_attributes(image_param)
@@ -10,10 +8,4 @@ class StaticPagesController < ApplicationController
       render json: current_user.errors.messages
     end
   end
-
-private
-  def image_param
-    params.require(:user).permit(:image)
-  end
-
 end

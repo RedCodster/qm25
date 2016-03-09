@@ -5,6 +5,10 @@ Rails.application.routes.draw do
   get '/all' => redirect('/questions')
   root 'static_pages#index'
 
+  post '/image', to: 'welcome#image'
+
+  get '/quiz_choose', to: 'quizzes#quiz_choose'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

@@ -31,3 +31,30 @@
     <%= f.submit %>
   </div>
 <% end %>
+
+<form id="question-form" class="container">
+  <div class='col-md-12'>
+    <h3> Please start entering your questions here:</h3>
+    <label>Question</label>
+    <input type="text" class="question" placeholder="Insert question here - don't forget the '?'">
+  </div>
+  <div class='col-md-6'>
+    <label>Answer</label>
+    <input type="text" class="answer" placeholder="Insert answer here">
+  </div>
+  <div class='col-md-6'>
+    <label>Dummy1</label>
+    <input type="text" class="dummy1" placeholder="Insert 1st dummy answer here">
+  </div>
+  <div class='col-md-6'>
+    <label>Dummy2</label>
+    <input type="text" class="dummy2" placeholder="Insert 2nd dummy answer here">
+  </div>
+  <div class='col-md-6'>
+    <label>url</label>
+    <input type="text" class="url" placeholder="Insert link to relevant media (Optional)">
+  </div>
+  <div class='col-md-4'>
+    <button id="question-create" class="btn btn-warning">Create New Question</button>
+  </div>
+</form>
