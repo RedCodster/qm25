@@ -5,6 +5,9 @@ Rails.application.routes.draw do
   get '/all' => redirect('/questions')
   root 'static_pages#index'
 
+  get '/signup', to: 'static_pages#signup'
+  get '/signin', to: 'static_pages#signin'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
